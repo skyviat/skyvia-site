@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Micro+5+Charted&display=swap');
 
 @font—face{
-  font-family: astragala;
-  src: url(astragala.ttf);
+  font-family: 'astragala';
+  src: url('https://github.com/skyviat/imgs/raw/refs/heads/1/src/astragala.ttf') format('ttf');
 }
 
 *{
