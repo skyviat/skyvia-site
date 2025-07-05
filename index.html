@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyViaTravels</title>
+
+    <link rel="icon" href="./icn/f-32.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <script defer src="app.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=airplane_ticket" />
+    <!-- Material Icons (Outlined) -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header>
+        <div class="fxd">
+          <nav>
+            <div>
+              <a class="flex items-center" href="index.html">
+                <img class="my-2" src="./icn/skyvia-travels.png" width="32px" alt="SkyViaTravels">
+                <!-- <span class="inline-block uppercase font-bold ml-2 text-xl">
+                  Skyvia Travels
+                </span> -->
+              </a>
+              <!-- <a href="index.html"><h3 class="port">SkyViaTravels</h3></a> -->
+            </div>
+            <ul class="nav-links">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-1 md:w-11/12 mt-28 w-full  center">
+              <div class="push w-full">
+                <h1 class="text-center">
+                  <span class="hero-text-1 md:text-5xl max-md:text-xs  uppercase">Crafting seamless experiences for</span> <br>
+                  <span class="md:text-9xl max-md:text-5xl hero-slogan">Tours & Travels.</span> </h1>
+              </div>
+
+              <div class="social-links flex items-center justify-center">
+                <div class="social-link fb-holder push"><a target="_blank" href="https://www.facebook.com/skyviatravels"><i class="fa-brands fa-facebook"></i></a></div>
+                
+                <div class="social-link ig-holder push"><a target="_blank" href="https://www.instagram.com/skyviatravels"><i class="instagram fa-brands fa-instagram"></i></a></div>
+                
+                <div class="social-link dial-holder push"><a target="_blank" href="tel:+8801712812381"><i class="fa-solid fa-phone-volume"></i></a></div>
+              </div>
+        </section>
+
+        <!-- Hero Cover image -->
+        <div class="w-[90%] lg:w-[85%] mx-auto mt-4 rounded-2xl h-[420px] relative overflow-hidden">
+  
+          <!-- Background Image -->
+          <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://raw.githubusercontent.com/skyviat/imgs/refs/heads/1/src/cover.jpg');"></div>
+          
+          <!-- Overlay with blur for text background -->
+          <div class="absolute inset-0 bg-black/30 rounded-2xl"></div>
+          
+          <!-- Text Content -->
+          <div class="absolute inset-0 flex  flex-col items-center justify-center text-center px-4">
+            <h3 class="text-white text-2xl sm:text-3xl font-bold bg-black/40 w-full backdrop-blur px-4 py-2 ">
+              Make Your Next Trip Amazing
+            </h3>
+
+            <div class="flex justify-start lg:justify-center mt-16 px-4 py-4">
+                <a href="tel:+8801712812381"
+                    class="text-sm sm:text-base md:text-lg px-4 sm:px-6 py-2 sm:py-3 rounded-md text-white font-semibold"
+                    style="background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%)">
+                    Call Now
+                </a>
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- <section class="section-2 w-full grid items-center justify-items-center">
+          <img src="computer.svg" alt="">
+        </section> -->
+
+
+<!-- Services -->
+<h2 class="section-title uppercase mt-8 mb-4">Services</h2>
+
+<div>
+  <div class=" flex items-center justify-center bg-white">
+    <div class="w-[90%] lg:w-[85%] grid grid-cols-1 sm:grid-cols-2 gap-6">
+      
+      <div class="push relative h-60 rounded-2xl overflow-hidden flex flex-col items-center justify-center text-black text-xl font-semibold cursor-pointer group">
+        <!-- Background image layer with zoom-on-hover -->
+        <div class="absolute inset-0 bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20220314/pngtree-spring-festival-ticket-grab-concept-map-air-ticket-map-image_1050156.jpg')] bg-cover bg-center opacity-20 transition-transform duration-500 scale-100 group-hover:scale-105"></div>
+
+        <!-- Content layer -->
+        <div class="relative z-10 text-center">
+          <div><i class="fa-solid fa-plane-departure text-6xl"></i></div>
+          <span>Air Ticketing</span>
+          <p class="text-sm font-normal mt-2">Domestic and International flight bookings</p>
+        </div>
+      </div>
+
+
+      <div class="push">
+        <div class="relative h-60 rounded-2xl overflow-hidden flex flex-col items-center justify-center text-black text-xl font-semibold cursor-pointer group">
+        <!-- Background image layer with zoom-on-hover -->
+        <div class="push absolute inset-0 bg-[url('https://img.freepik.com/free-photo/hands-holding-tickets-close-up_23-2149080808.jpg?semt=ais_hybrid&w=740')] bg-cover bg-center opacity-20 transition-transform duration-500 scale-100 group-hover:scale-105"></div>
+
+        <!-- Content layer -->
+        <div class="relative z-10 text-center">
+          <div><i class="fa-solid fa-id-card text-6xl"></i></div>
+          <span>Visa Processing</span>
+          <p class="text-sm font-normal mt-2">
+            Visa for China, Malaysia, Singapore, <br>
+            United Kingdom (UK), Japan, Australia, <br>
+            Thailand, Dubai (UAE)
+          </p>
+        </div>
+        </div>
+      </div>
+
+      <div class="push relative h-60 rounded-2xl overflow-hidden flex flex-col items-center justify-center text-black text-xl font-semibold cursor-pointer group">
+        <!-- Background image layer with zoom-on-hover -->
+        <div class="absolute inset-0 bg-[url('https://static.zawya.com/view/acePublic/alias/contentid/ZWM3NmY2OGUtNzIzNS00/49/190520034248vwyt-jpg.webp?f=3%3A2&q=0.75&w=3840')] bg-cover bg-center opacity-20 transition-transform duration-500 scale-100 group-hover:scale-105"></div>
+
+        <!-- Content layer -->
+        <div class="relative z-10 text-center">
+          <div><i class="fa-solid fa-bed text-6xl"></i></div>
+          <span>Hotel Bookings</span>
+          <p class="text-sm font-normal mt-2">Hotel reservations available in any country
+          </p>
+        </div>
+      </div>
+
+      <div class="push relative h-60 rounded-2xl overflow-hidden flex flex-col items-center justify-center text-black text-xl font-semibold cursor-pointer group">
+        <!-- Background image layer with zoom-on-hover -->
+        <div class="absolute inset-0 bg-[url('https://www.responsibletravel.com/imagesClient/S_257057.jpg')] bg-cover bg-center opacity-20 transition-transform duration-500 scale-100 group-hover:scale-105"></div>
+
+        <!-- Content layer -->
+        <div class="relative z-10 text-center">
+          <div><i class="fa-solid fa-suitcase-rolling text-6xl"></i></div>
+          <span>Tour Packages</span>
+          <p class="text-sm font-normal mt-2">
+            National and International tour packages, <br>
+            Umrah packages, Packages planned by us or <br>
+            fully customized as per client requirements
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<!-- Tour Packeges: National -->
+
+<h2 class="section-title uppercase mt-8">Tour Packeges</h2>
+<h3 class="uppercase mb-4 text-center">National Tours</h3>
+
+<div class="w-[90%] lg:w-[85%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-2">
+  <!-- Card: Cox's Bazar -->
+  <div class="group bg-[#C0C9EE] rounded-2xl overflow-hidden transition-shadow duration-300 hover:shadow-lg cursor-pointer">
+    <div class="overflow-hidden">
+      <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRdt88zHYhx576FxvfcU3jP0qw2jJDcrv6e6cKhPBS0EcPzdz9S4H_hMpIwwwUIylZlJGuI8ov7RrWK--wIVXF_4IbJaQshh7EO9ALNjQ"
+           alt="Cox's Bazar"
+           class="w-full h-48 object-cover rounded-t-2xl transition-transform duration-500 group-hover:scale-105">
+    </div>
+    <div class="px-4">
+      <h2 class="text-2xl font-bold py-4 transition-colors duration-300 group-hover:text-blue-600">Cox’s Bazar</h2>
+      <p class="pb-4 text-gray-800">Beach holiday with sea-view hotel</p>
+    </div>
+  </div>
+
+  <!-- Card: Sylhet -->
+  <div class="group bg-[#C0C9EE] rounded-2xl overflow-hidden transition-shadow duration-300 hover:shadow-lg cursor-pointer">
+    <div class="overflow-hidden">
+      <img src="https://tripjive.com/wp-content/uploads/2024/11/Which-tea-gardens-in-Sylhet-offer-the-best-tours-and-experiences.jpg"
+           alt="Sylhet"
+           class="w-full h-48 object-cover rounded-t-2xl transition-transform duration-500 group-hover:scale-105">
+    </div>
+    <div class="px-4">
+      <h2 class="text-2xl font-bold py-4 transition-colors duration-300 group-hover:text-blue-600">Sylhet</h2>
+      <p class="pb-4 text-gray-800">Tea gardens, Ratargul, and Jaflong tour</p>
+    </div>
+  </div>
+
+  <!-- Card: Bandarban -->
+  <div class="group bg-[#C0C9EE] rounded-2xl overflow-hidden transition-shadow duration-300 hover:shadow-lg cursor-pointer">
+    <div class="overflow-hidden">
+      <img src="https://bdsearcher.com/wp-content/uploads/2017/08/nilgiri-bandarban.jpg"
+           alt="Bandarban"
+           class="w-full h-48 object-cover rounded-t-2xl transition-transform duration-500 group-hover:scale-105">
+    </div>
+    <div class="px-4">
+      <h2 class="text-2xl font-bold py-4 transition-colors duration-300 group-hover:text-blue-600">Bandarban</h2>
+      <p class="pb-4 text-gray-800">Hills, waterfalls, and tribal village visit</p>
+    </div>
+  </div>
+
+  <!-- Card: Sundarbans -->
+  <div class="group bg-[#C0C9EE] rounded-2xl overflow-hidden transition-shadow duration-300 hover:shadow-lg cursor-pointer">
+    <div class="overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1549300461-11c5b94e8855?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3VuZGFyYmFufGVufDB8fDB8fHww"
+           alt="Sundarbans"
+           class="w-full h-48 object-cover rounded-t-2xl transition-transform duration-500 group-hover:scale-105">
+    </div>
+    <div class="px-4">
+      <h2 class="text-2xl font-bold py-4 transition-colors duration-300 group-hover:text-blue-600">Sundarbans</h2>
+      <p class="pb-4 text-gray-800">Wildlife and mangrove forest cruise</p>
+    </div>
+  </div>
+</div>
+
+<!-- Tour Packeges: International -->
+
+<h3 class="uppercase mt-4 mb-2 text-center">International Tours</h3>
+
+<div class="w-[90%] lg:w-[85%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-2">
+  <!-- Card 1 -->
+  <div class="group bg-[#C0C9EE] rounded-2xl overflow-hidden transition-shadow duration-300 hover:shadow-lg cursor-pointer">
+    <div class="overflow-hidden">
+      <img src="https://i2.wp.com/discoverholidaysbd.com/wp-content/uploads/2019/06/Untitled-1.jpg?w=820&ssl=1"
+           alt="Malaysia-Singapore-Bali Combo"
+           class="w-full h-48 object-cover rounded-t-2xl transition-transform duration-500 group-hover:scale-105">
+    </div>
+    <div class="px-4">
+      <h2 class="text-2xl font-bold py-4 transition-colors duration-300 group-hover:text-blue-600">
+        Malaysia-Singapore-Bali Combo
+      </h2>
+      <p class="pb-4 text-gray-800">City, nature, and beach experience</p>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="group bg-[#C0C9EE] rounded-2xl overflow-hidden transition-shadow duration-300 hover:shadow-lg cursor-pointer">
+    <div class="overflow-hidden">
+      <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQSs8fyFH2UV4qe7qUZD1anU16aJdSRgA-aDLX_P9Dk-og62T-gpiHsRd-GxoRIB-tEqKVIcrRRDj1DkQanczBZrvAyQzhEnEm_VTYLYbk"
+           alt="Thailand"
+           class="w-full h-48 object-cover rounded-t-2xl transition-transform duration-500 group-hover:scale-105">
+    </div>
+    <div class="px-4">
+      <h2 class="text-2xl font-bold py-4 transition-colors duration-300 group-hover:text-blue-600">
+        Thailand
+      </h2>
+      <p class="pb-4 text-gray-800">Bangkok and Phuket holiday with island tours</p>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="group bg-[#C0C9EE] rounded-2xl overflow-hidden transition-shadow duration-300 hover:shadow-lg cursor-pointer">
+    <div class="overflow-hidden">
+      <img src="https://tii.imgix.net/production/articles/12772/e6e279c7-c6bb-415e-8d1f-0eee12e8a4b9-alDhkb.png?fm=jpg&auto=compress&w=1200"
+           alt="Dubai"
+           class="w-full h-48 object-cover rounded-t-2xl transition-transform duration-500 group-hover:scale-105">
+    </div>
+    <div class="px-4">
+      <h2 class="text-2xl font-bold py-4 transition-colors duration-300 group-hover:text-blue-600">
+        Dubai
+      </h2>
+      <p class="pb-4 text-gray-800">Desert safari, city tour, and shopping package</p>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="group bg-[#C0C9EE] rounded-2xl overflow-hidden transition-shadow duration-300 hover:shadow-lg cursor-pointer">
+    <div class="overflow-hidden">
+      <img src="https://static2.tripoto.com/media/filter/tst/img/170380/TripDocument/1565073615_biggest_cities_in_europe.jpg"
+           alt="Europe"
+           class="w-full h-48 object-cover rounded-t-2xl transition-transform duration-500 group-hover:scale-105">
+    </div>
+    <div class="px-4">
+      <h2 class="text-2xl font-bold py-4 transition-colors duration-300 group-hover:text-blue-600">
+        Europe
+      </h2>
+      <p class="pb-4 text-gray-800">Wildlife and mangrove forest cruise</p>
+    </div>
+  </div>
+</div>
+
+
+</section>
+
+<!-- Location -->
+
+        <section class="location">
+          <h2 class="section-title uppercase mt-8">Our Location</h2>
+          <h3 class="uppercase mb-4 text-center">Dhaka Office</h3>
+          <div class="w-full h-[350px]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.105037506569!2d90.4096306!3d23.707942799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b906dcdddd6b%3A0x6394354fc3ac022d!2sTuraj%20Optics!5e0!3m2!1sen!2sbd!4v1750875431552!5m2!1sen!2sbd"
+              class="w-full h-full border-0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+
+      <!-- Footer contents -->
+
+      <div class="w-[90%] lg:w-[85%] mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- First Column -->
+        <div class="text-left">
+          <h2 class="text-2xl font-bold mb-2">Contact</h2>
+          <p class="text-base">
+            <address>
+              73-74 Patuatuli, Padma Building Shop no 17, Dhaka 1100 <br>
+              Email: <a href="mailto:skyviatravels@gmail.com" itemprop="email">skyviatravels@gmail.com</a><br>
+              Phone: <a href="tel:+880 1712-812381" itemprop="telephone">+880 1712-812381</a>
+            </address>
+          </p>
+        </div>
+
+        <!-- Second Column -->
+        <div class="text-left md:text-right">
+          <h2 class="text-2xl font-bold mb-2">Social Media</h2>
+          <p class="text-base">
+            <a class="hover:underline-offset-8" href="https://facebook.com/skyviatravels">Facebook</a><br>
+            <a class="hover:underline-offset-8" href="https://instagram.com/skyviatravels">Instagram</a>
+          </p>
+        </div>
+        <h3>&copy; SkyViaTravels 2025</h3>
+      </div>
+
+
+
+      <!-- Footer animation -->
+      
+        <svg class="editorial"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 24 150 28 "
+     preserveAspectRatio="none">
+ <defs>
+ <path id="gentle-wave"
+ d="M-160 44c30 0 
+    58-18 88-18s
+    58 18 88 18 
+    58-18 88-18 
+    58 18 88 18
+    v44h-352z" />
+  </defs>
+  <g class="parallax1">
+   <use xlink:href="#gentle-wave" x="50" y="3" fill="#f461c1"/>
+  </g>
+    <g class="parallax2">
+   <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/>
+    </g>
+      <g class="parallax3">
+   <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/>
+   </g>
+    <g class="parallax4">
+   <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/>  
+  </g>
+</svg>
+<!-- <div class="h-divider">
+  <div class="shadow"></div>
+  <div class="text"><i>Mohamed </i></div>
+</div> -->
+
+<div class="h-divider">
+
+  
+
+
+        </section>
+    </footer>
+</body>
+</html>

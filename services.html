@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyViaTravels / Services</title>
+
+    <link rel="icon" href="./icn/f-32.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="fxd">
+          <nav>
+            <div class="logo">
+              <a href="index.html"><img class="my-2" src="./icn/skyvia-travels.png" width="32px" alt="SkyViaTravels"></a>
+              <!-- <a href="index.html"><h3 class="port">SkyViaTravels</h3></a> -->
+            </div>
+            <ul class="nav-links">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </nav>
+        </div>
+    </header>
+
+    <div class="push w-[90%] lg:w-[85%] mx-auto mt-2 rounded-2xl h-[420px] bg-cover bg-center" 
+     style="background-image: url('https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWlycGxhbmUlMjB2aWV3fGVufDB8fDB8fHww');">
+    </div>
+
+    <div class="max-w-xl my-9 center leading-7">
+        <h1 class="section-title uppercase mb-8">Services We Provide</h1>
+        
+    </div>
+
+    <div class="flex flex-col items-center px-2 pb-4 space-y-4  bg-white">
+
+  <!-- Card 1 -->
+  <div class="w-full max-w-[600px] rounded-2xl bg-[#ecf4ff] p-4 h-auto ">
+    <button onclick="toggleCard(1)" class="flex items-center justify-between w-full text-left text-lg sm:text-xl font-semibold">
+      <h2>Air Ticketing With Tour Packages</h2>
+      <span id="icon1" class="text-2xl font-bold transition-transform duration-300">+</span>
+    </button>
+    <div id="content1" class="overflow-hidden transition-all duration-500 max-h-0">
+      <p class="pt-4 text-base leading-relaxed">
+        <strong>Domestic Packages (Bangladesh):</strong><br>
+        Cox’s Bazar: Beach holiday with sea-view hotel<br>
+        Sylhet: Tea gardens, Ratargul, and Jaflong tour<br>
+        Bandarban: Hills, waterfalls, and tribal village visit<br>
+        Sundarbans: Wildlife and mangrove forest cruise<br><br>
+        <strong>International Packages:</strong><br>
+        Malaysia-Singapore-Bali Combo: City, nature, and beach experience<br>
+        Thailand: Bangkok and Phuket holiday with island tours<br>
+        Dubai: Desert safari, city tour, and shopping package<br>
+        Europe: Paris, Rome, and Switzerland highlights (Schengen tour)
+      </p>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="w-full max-w-[600px] rounded-2xl bg-[#ecf4ff] p-4 h-auto my-2">
+    <button onclick="toggleCard(2)" class="flex items-center justify-between w-full text-left text-lg sm:text-xl font-semibold">
+      <h2>Visa Processing</h2>
+      <span id="icon2" class="text-2xl font-bold transition-transform duration-300">+</span>
+    </button>
+    <div id="content2" class="overflow-hidden transition-all duration-500 max-h-0">
+      <p class="pt-4 text-base leading-relaxed">
+        We assist with visit visa applications for the following countries:<br>
+        * China<br>
+        * Malaysia<br>
+        * Singapore<br>
+        * United Kingdom (UK)<br>
+        * Japan<br>
+        * Australia<br>
+        * Thailand<br>
+        * Dubai (UAE)
+      </p>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="w-full max-w-[600px] rounded-2xl bg-[#ecf4ff] p-4 h-auto my-2">
+    <button onclick="toggleCard(3)" class="flex items-center justify-between w-full text-left text-lg sm:text-xl font-semibold">
+      <h2>Hotel Bookings</h2>
+      <span id="icon3" class="text-2xl font-bold transition-transform duration-300">+</span>
+    </button>
+    <div id="content3" class="overflow-hidden transition-all duration-500 max-h-0">
+      <p class="pt-4 text-base leading-relaxed">
+        Book any hotel reservations available in any country.
+      </p>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="w-full max-w-[600px] rounded-2xl bg-[#ecf4ff] p-4 h-auto my-2">
+    <button onclick="toggleCard(4)" class="flex items-center justify-between w-full text-left text-lg sm:text-xl font-semibold">
+      <h2>Tour Packages</h2>
+      <span id="icon4" class="text-2xl font-bold transition-transform duration-300">+</span>
+    </button>
+    <div id="content4" class="overflow-hidden transition-all duration-500 max-h-0">
+      <p class="pt-4 text-base leading-relaxed">
+        * National and International tour packages<br>
+        * Umrah packages<br>
+        * Packages planned by us or fully customized as per client requirements
+      </p>
+    </div>
+  </div>
+
+</div>
+
+    <div class="flex justify-start lg:justify-center px-4 py-4">
+        <a href="tel:+8801712812381"
+            class="text-sm sm:text-base md:text-lg px-4 sm:px-6 py-2 sm:py-3 rounded-md text-white font-semibold"
+            style="background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%)">
+            Call Now
+        </a>
+    </div>
+
+    <footer>
+
+      <!-- Footer contents -->
+
+      <div class="w-[90%] lg:w-[85%] mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- First Column -->
+        <div class="text-left">
+          <h2 class="text-2xl font-bold mb-2">Contact</h2>
+          <p class="text-base">
+            <address>
+              73-74 Patuatuli, Padma Building Shop no 17, Dhaka 1100 <br>
+              Email: <a href="mailto:skyviatravels@gmail.com" itemprop="email">skyviatravels@gmail.com</a><br>
+              Phone: <a href="tel:+880 1712-812381" itemprop="telephone">+880 1712-812381</a>
+            </address>
+          </p>
+        </div>
+
+        <!-- Second Column -->
+        <div class="text-left md:text-right">
+          <h2 class="text-2xl font-bold mb-2">Social Media</h2>
+          <p class="text-base">
+            <a class="hover:underline-offset-8" href="https://facebook.com/skyviatravels">Facebook</a><br>
+            <a class="hover:underline-offset-8" href="https://instagram.com/skyviatravels">Instagram</a>
+          </p>
+        </div>
+        <h3>&copy; SkyViaTravels 2025</h3>
+      </div>
+
+
+      <!-- Footer animation -->
+      
+    <svg class="editorial"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 24 150 28 "
+     preserveAspectRatio="none">
+    <defs>
+    <path id="gentle-wave"
+    d="M-160 44c30 0 
+        58-18 88-18s
+        58 18 88 18 
+        58-18 88-18 
+        58 18 88 18
+        v44h-352z" />
+    </defs>
+    <g class="parallax1">
+    <use xlink:href="#gentle-wave" x="50" y="3" fill="#f461c1"/>
+    </g>
+    <g class="parallax2">
+    <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/>
+        </g>
+        <g class="parallax3">
+    <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/>
+    </g>
+        <g class="parallax4">
+    <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/>  
+    </g>
+    </svg>
+<div class="h-divider">
+
+  
+
+
+        </section>
+    </footer>
+
+
+
+<script>
+  const expandedState = {};
+
+  function toggleCard(id) {
+    const content = document.getElementById(`content${id}`);
+    const icon = document.getElementById(`icon${id}`);
+    expandedState[id] = !expandedState[id];
+
+    if (expandedState[id]) {
+      content.style.maxHeight = content.scrollHeight + "px";
+      icon.textContent = "-";
+      icon.classList.add('rotate-180');
+    } else {
+      content.style.maxHeight = "0";
+      icon.textContent = "+";
+      icon.classList.remove('rotate-180');
+    }
+  }
+</script>
+
+
+</body>
+</html>
